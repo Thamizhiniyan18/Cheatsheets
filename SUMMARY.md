@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Tmux](README.md)
-  * [Sessions](tmux/sessions.md)
-  * [Windows](tmux/windows.md)
-  * [Panes](tmux/panes.md)
-  * [Copy Mode](tmux/copy-mode.md)
-  * [Configuration](tmux/configuration.md)
+* [Nmap](README.md)
+  * [Nmap Options](nmap/nmap-options.md)
+  * [Nmap Port Scan Types](nmap/nmap-port-scan-types.md)
+  * [Nmap Commands](nmap/nmap-commands.md)
+  * [Nmap Port Selection](nmap/nmap-port-selection.md)
+  * [NSE Scripts](nmap/nse-scripts.md)

@@ -1,27 +1,19 @@
-# Nmap
+# Tmux
 
-## Introduction
+{% embed url="https://github.com/tmux/tmux/wiki" %}
 
-{% embed url="https://nmap.org/" %}
+tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 
-Nmap is a security scanner for network exploration and hacking. It allows you to discover hosts and services on a computer network, thus creating a "map" of the network. It sends specially crafted packets to the target host and then analyzes the responses to accomplish its goal. Either a network administrator or an attacker can use this tool for their specific needs.
+## Common
 
-***
+| **COMMAND**              | **DESCRIPTION**                                 |
+| ------------------------ | ----------------------------------------------- |
+| `tmux`                   | Launch Tmux                                     |
+| `tmux -V`                | Check Tmux version                              |
+| `tmux list-keys \| less` | List all commands                               |
+| `tmux ls`                | Show all sessions                               |
+| `tmux info`              | Show every session, window, and pane            |
+| `tmux a`                 | (Re)attach to the most recently created session |
+| `man tmux`               | Display full manual of Tmux                     |
 
-## Download
-
-{% embed url="https://nmap.org/download.html" %}
-
-***
-
-## Syntax
-
-```bash
-nmap [Scan Type...] [Options] {Target specification}
-```
-
-***
-
-## Sections
-
-<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Nmap Options</td><td></td><td></td></tr><tr><td>Nmap Port Scan Types</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+\
